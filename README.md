@@ -1,5 +1,7 @@
 ## Queries and Mutations
 
+Once installed and running, you can reproduce the bug by subscribing as shown below and running the mutation shown below.
+
 ```gql
 """
 mutation
