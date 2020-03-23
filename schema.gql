@@ -1,0 +1,28 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Customer {
+  id: String!
+  firstName: String!
+  lastName: String!
+  email: String!
+}
+
+type Mutation {
+  addCustomer(newCustomer: NewCustomer!): Customer!
+}
+
+input NewCustomer {
+  firstName: String!
+  lastName: String!
+  email: String!
+}
+
+type Query {
+  customers: [Customer!]!
+}
+
+type Subscription {
+  custAdded: Customer
+}
